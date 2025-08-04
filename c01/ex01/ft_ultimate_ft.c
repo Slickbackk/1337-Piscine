@@ -1,10 +1,10 @@
 #include<stdio.h>
 #include<unistd.h>
-void ft_ultimate_ft(int **nbr)
+void ft_ultimate_ft(int *********nbr)
 {
-	**nbr = 42;
+	*********nbr = 42;
 }
-int	main()
+/*int	main()
 {
 	int n;
 	int *p1 = &n;
@@ -13,3 +13,4 @@ int	main()
 	printf("%d\n" ,n);
 	return 0;
 }
+/*
